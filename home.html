@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230220124306">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo _icon-logo">
+					<span class="header__logo-text">Dashboard<span></span>v.01</span>
+				</a>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__dashboard dashboard">
+				<div class="dashboard__container">
+					<div class="dashboard__body">
+						<div class="dashboard__aside aside">
+							<div class="aside__menu menu">
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item"><a href="#" class="menu__link _icon-dashboard">Dashboard</a></li>
+										<li class="menu__item"><a href="#" class="menu__link _icon-product">Product</a></li>
+										<li class="menu__item"><a href="home.html#customers" class="menu__link _icon-customers">Customers</a></li>
+										<li class="menu__item"><a href="#" class="menu__link _icon-income">Income</a></li>
+										<li class="menu__item"><a href="#" class="menu__link _icon-promote">Promote</a></li>
+										<li class="menu__item"><a href="#" class="menu__link _icon-help">Help</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="aside__user user-aside">
+								<div class="user-aside__image">
+									<picture><source srcset="img/user-img.webp" type="image/webp"><img src="img/user-img.png" alt="user"></picture>
+								</div>
+								<div class="user-aside__value">
+									<div class="user-aside__name name-user">Evano</div>
+									<div class="user-aside__profession profession-user">Project Manager</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="customers" class="dashboard__content">
+							<h2 class="dashboard__beck">Hello Evano 👋🏼,</h2>
+							<div class="dashboard__table table-list">
+								<div class="table-list__action">
+									<div class="table-list__block-title">
+										<h1 class="table-list__title">All Customers</h1>
+										<h3 class="table-list__subtitle">Active Members</h3>
+									</div>
+									<form class="table-list__form">
+										<div class="table-list__search">
+											<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Search" class="table-list__input input">
+											<a href="#" class="table-list__search-button _icon-search"></a>
+										</div>
+									</form>
+								</div>
+								<div class="table-list__body">
+									<div class="table-list__items">
+										<ul class="table-list__item header-table">
+											<li class="header-table__item header-value header-value--name">Customer Name</li>
+											<li class="header-table__item header-value header-value--company">Company</li>
+											<li class="header-table__item header-value header-value--phone">Phone Number</li>
+											<li class="header-table__item header-value header-value--email">Email</li>
+											<li class="header-table__item header-value header-value--country">Country</li>
+											<li class="header-table__item header-value header-value--status">Status</li>
+										</ul>
+									</div>
+									<div class="table-list__content">
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Jane Cooper</li>
+											<li class="content-table__item content-value content-value--company">Microsoft</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:2255550118">(225) 555-0118</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:jane@microsoft.com">jane@microsoft.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">United States</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button" type="button">Active</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Floyd Miles</li>
+											<li class="content-table__item content-value content-value--company">Yahoo</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:2255550118">(205) 555-0100</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:jane@microsoft.com">floyd@yahoo.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Kiribati</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button _inactive" type="button">Inactive</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Ronald Richards</li>
+											<li class="content-table__item content-value content-value--company">Adobe</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:3025550107">(302) 555-0107</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:ronald@adobe.com">ronald@adobe.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Israel</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button _inactive" type="button">Inactive</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Marvin McKinney</li>
+											<li class="content-table__item content-value content-value--company">Tesla</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:2525550126">(252) 555-0126</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:marvin@tesla.com">marvin@tesla.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Iran</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button" type="button">Active</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Jerome Bell</li>
+											<li class="content-table__item content-value content-value--company">Google</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:6295550129">(629) 555-0129</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:jerome@google.com">jerome@google.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Réunion</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button" type="button">Active</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Kathryn Murphy</li>
+											<li class="content-table__item content-value content-value--company">Microsoft</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:4065550120">(406) 555-0120</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:kathryn@microsoft.com">kathryn@microsoft.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Curaçao</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button" type="button">Active</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Jacob Jones</li>
+											<li class="content-table__item content-value content-value--company">Yahoo</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:2085550112">(208) 555-0112</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:kathryn@microsoft.com">jacob@yahoo.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Brazil</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button" type="button">Active</button>
+											</li>
+										</ul>
+										<ul class="table-list__item content-table">
+											<li class="content-table__item content-value content-value--name">Kristin Watson</li>
+											<li class="content-table__item content-value content-value--company">Facebook</li>
+											<li class="content-table__item content-value content-value--phone">
+												<a href="tel:7045550127">(704) 555-0127</a>
+											</li>
+											<li class="content-table__item content-value content-value--email">
+												<a href="mailto:kristin@facebook.com">kristin@facebook.com</a>
+											</li>
+											<li class="content-table__item content-value content-value--country">Åland Islands</li>
+											<li class="content-table__item content-value content-value--status">
+												<button class="content-table__button _inactive" type="button">Inactive</button>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="table-list__pagination pagination-list">
+
+									<div class="pagination-list__content">
+										<h5 class="pagination-list__title">Showing data 1 to 8 of 256K entries</h5>
+										<div class="pagination-list__items">
+											<a href="#" class="pagination-list__button button-prev _icon-arrow"></a>
+
+											<ul class="pagination-list__links">
+												<li class="pagination-list__link pagination-list__link--active">
+													<a href="#">1</a>
+												</li>
+												<li class="pagination-list__link">
+													<a href="#">2</a>
+												</li>
+												<li class="pagination-list__link">
+													<a href="#">3</a>
+												</li>
+												<li class="pagination-list__link">
+													<a href="#">4</a>
+												</li>
+												<li class="pagination-list__link pagination-list__link--pages">
+													<a href="#">...</a>
+												</li>
+												<li class="pagination-list__link">
+													<a href="#">40</a>
+												</li>
+											</ul>
+
+											<a href="#" class="pagination-list__button button-next _icon-arrow"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230220124306"></script>
+</body>
+
+</html>
